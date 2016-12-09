@@ -1,0 +1,6 @@
+{% extends "layout.html" %}
+{% block main %}
+<h1>Välkommen</h1>
+<p>Det här är en sida.</p>
+<img id="index-image" alt="Could not load image" src={{ url_for('static', filename="bild.jpg") }}/>
+{% endblock %}

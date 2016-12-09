@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: "Segoe UI", Helvetica;
+}
+
+#main {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+
+header {
+    height: 40px;
+    background-color: #595959;
+}
+
+#index-image {
+    width: 250px;
+}

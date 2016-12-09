@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
+    <title>A programming portfolio</title>
+  </head>
+  <body>
+    <header></header>
+    <div id="main">
+      {% block main %}{% endblock %}
+    </div>
+  </body>
+</html>
