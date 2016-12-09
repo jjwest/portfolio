@@ -2,5 +2,19 @@
 {% block main %}
 <h1>Välkommen</h1>
 <p>Det här är en sida.</p>
-<img id="index-image" alt="Could not load image" src={{ url_for('static', filename="bild.jpg") }}/>
+<div class="col-sm-4">
+  <img id="index-image" alt="Could not load image" src={{ url_for('static', filename="bild.jpg") }}/>
+</div>
+<div class="col-sm-8">
+  <ul>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+    <li>Things</li>
+  </ul>
+</div>
 {% endblock %}
