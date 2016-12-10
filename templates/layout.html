@@ -13,7 +13,16 @@
   </head>
   <body>
     <header></header>
-    <div id="main">
+    <div id="main" class="container">
+      <div class="row">
+	<div class="col-md-7"></div>
+	  <ul class="col-md-5">
+	    <li class="menu-item"><a href={{ url_for('index') }}>Home</a></li>
+	    <li class="menu-item"><a href={{ url_for('projects') }}>Projects</a></li>
+	    <li class="menu-item"><a href={{ url_for('techniques') }}>Techniques</a></li>
+	    <li class="menu-item"><a href={{ url_for('contact') }}>Contact</a></li>
+	  </ul>
+      </div>
       {% block main %}{% endblock %}
     </div>
   </body>

@@ -10,8 +10,12 @@ body {
     font-family: "Segoe UI", Helvetica;
 }
 
+.menu-item {
+    display: inline;
+    margin-left: 1.25em;
+}
+
 #main {
-    width: 40%;
     margin: 0 auto;
     margin-top: 10em;
 }
