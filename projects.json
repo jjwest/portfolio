@@ -2,9 +2,59 @@
     {
 	"id": 1,
 	"name": "Spacecraze",
+	"date": "December 2015",
 	"techniques": [
-	    "C++",
+	    "C++11",
 	    "SDL2"
-	]
+	],
+	"github": "https://www.github.com",
+	"small_image": "http://www.clipartbay.com/cliparts/flying-saucer-clip-art-wd7397v.jpg",
+	"big_image": "https://s-media-cache-ak0.pinimg.com/originals/b6/b7/d7/b6b7d76fd1732efc4b728ce3dc3370c0.jpg",
+	"short_description": "A 2D space shooter",
+	"long_description": "Spacecraze is a two dimensional space shooter that involves."
+    },
+    {
+	"id": 2,
+	"name": "Gentlemen",
+	"date": "May 2016",
+	"techniques": [
+	    "Ruby"
+	],
+	"github": "https://www.github.com",
+	"small_image": "https://envato.com/wp-content/uploads/2016/03/Tools-for-Structuring-Optimizing-Your-CSS-Code.jpg",
+	"big_image": "https://s-media-cache-ak0.pinimg.com/originals/b6/b7/d7/b6b7d76fd1732efc4b728ce3dc3370c0.jpg",
+	"short_description": "An imperative programming language",
+	"long_description": "Gentlemen is an imperative programming language with syntax inspired from."
+    },
+    {
+	"id": 3,
+	"name": "Bowserbook",
+	"date": "September 2016",
+	"techniques": [
+	    "JavaScript",
+	    "Node.js",
+	    "MariaDB",
+	    "JQuery",
+	    "Bootstrap"
+	],
+	"github": "https://www.github.com",
+	"small_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
+	"big_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
+	"short_description": "A lightweight social network",
+	"long_description": "Bowserbook is a very lightweight social network created as part of the curriculum of the course TDP013 at Linköping university. It was created as an exercise in creating interactive websites using tools within the JavaScript ecosystem."
+    },
+    {
+	"id": 4,
+	"name": "Portfolio",
+	"date": "December 2016",
+	"techniques": [
+	    "Python",
+	    "Flask"
+	],
+	"github": "https://www.github.com",
+	"small_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
+	"big_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
+	"short_description": "This portfolio",
+	"long_description": "The portfolio you're viewing. A simple website created using the Python framework Flask."
     }
 ]

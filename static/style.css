@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+header {
+    height: 40px;
+    background-color: #595959;
+}
+
 body {
     color: #333;
     line-height: 1.5;
@@ -15,16 +20,44 @@ body {
     margin-left: 1.25em;
 }
 
+.project-gallery {
+    padding-top: 1.5em;
+}
+
+.project-gallery:hover {
+    background-color: #f2f2f2;
+}
+
+.project-gallery * {
+    color: #333;
+}
+
+.project-gallery img {
+    width: 80%;
+}
+
+.project-gallery ul {
+    list-style-type: none;
+}
+
+#project-image-big {
+    width: 90%;
+}
+
+#project-header ul {
+    list-style-type: none;
+}
+
 #main {
     margin: 0 auto;
     margin-top: 10em;
 }
 
-header {
-    height: 40px;
-    background-color: #595959;
-}
 
 #index-image {
     width: 250px;
+}
+
+#technique-gallery {
+    list-style-type: none;
 }

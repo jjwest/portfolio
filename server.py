@@ -25,11 +25,6 @@ def techniques():
     return render_template('techniques.html', techniques=techniques)
 
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
-
-
 @app.route('/project/<int:id>')
 def project(id):
     projects = database.load(PROJECTS)

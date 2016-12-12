@@ -1,22 +1,14 @@
 {% extends "layout.html" %}
 {% block main %}
-<h1>Welcome</h1>
-<p>Det här är en sida.</p>
 <div class="row">
   <div class="col-md-4">
     <img id="index-image" alt="Could not load image" src={{ url_for('static', filename="bild.jpg") }}/>
   </div>
   <div class="col-md-8">
-    <ul>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-      <li>Things</li>
-    </ul>
+    <h1>Hi!</h1>
+    <p>My name is Jonas and I'm a 26 year old programming student from Luleå, Sweden.
+    <p>This is my portfolio where I gather all my programming endeavours, including
+      my own pet projects as well as projects created of courses during my education at Linköping university.
   </div>
 </div>
 {% endblock %}

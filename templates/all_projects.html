@@ -1,9 +1,29 @@
 {% extends "layout.html" %}
 {% block main %}
 <h1>Projects</h1>
-<ul>
-  {% for project in projects %}
-  <li><a href={{ url_for('project', id=project.id) }}>{{ project.name }}</a></li>
-  {% endfor %}
-</ul>
+{% if projects %}
+{% for project in projects %}
+<div class="project-gallery">
+  <a class="row" href={{ url_for('project', id=project.id) }}>
+    <div class="col-md-4">
+      <img alt="Could not load image" src={{ project.small_image }}>
+    </div>
+    <div class="col-md-4">
+      <h3>{{ project.name }}</h3>
+      {{ project.short_description }}
+    </div>
+    <div class="col-md-4">
+      <h3>Techniques used</h3>
+      <ul>
+	{% for technique in project.techniques %}
+	<li>{{ technique }}</li>
+	{% endfor %}
+      </ul>
+    </div>
+  </a>
+</div>
+{% endfor %}
+{% else %}
+<p>No projects available</p>
+{% endif %}
 {% endblock %}

@@ -1,4 +1,24 @@
 {% extends "layout.html" %}
 {% block main %}
 <h1>{{ project.name }}</h1>
+<div id="project-header" class="row">
+  <div class="col-md-6">
+    <img id="project-image-big" alt="Unable to load image for {{ project.name }}" src={{ project.big_image }}>
+  </div>
+  <div class="col-md-6">
+    <h2>Quick</h2>
+    <ul>
+      <li><b>What: </b>{{ project.short_description }}</li>
+      <li><b>When: </b>{{ project.date }}</li>
+      <li><b>With: </b>
+	{% for technique in project.techniques %}
+	{{ technique }}
+	{% endfor %}
+      </li>
+      <li><a href={{ project.github }}><b>Github</b></a></li>
+    </ul>
+  </div>
+</div>
+<h2>Description</h2>
+{{ project.long_description }}
 {% endblock %}
