@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block main %}
+<div id="admin" class="row">
+  <div id="table"class="col-sm-12">
+    <a onClick="addProject()">Add project</a>
+    <a href="">Remove project</a>
+    <a href="">Update project</a>
+  </div>
+</div>
+<script src="{{ url_for('static', filename='admin.js') }}"></script>
+{% endblock %}
+
+<form action=""></form>

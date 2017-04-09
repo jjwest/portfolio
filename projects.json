@@ -8,8 +8,8 @@
 	    "SDL2"
 	],
 	"github": "https://www.github.com",
-	"small_image": "http://www.clipartbay.com/cliparts/flying-saucer-clip-art-wd7397v.jpg",
-	"big_image": "https://s-media-cache-ak0.pinimg.com/originals/b6/b7/d7/b6b7d76fd1732efc4b728ce3dc3370c0.jpg",
+	"small_image": "http://i.imgur.com/AexuQ8O.png?1",
+	"big_image": "http://i.imgur.com/AexuQ8O.png?1",
 	"short_description": "A 2D space shooter",
 	"long_description": "Spacecraze is a two dimensional space shooter that involves."
     },
@@ -52,9 +52,23 @@
 	    "Flask"
 	],
 	"github": "https://www.github.com",
-	"small_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
-	"big_image": "http://static.giantbomb.com/uploads/scale_small/0/1122/249425-bowser.jpg",
+	"small_image": "http://i.imgur.com/p38dbwz.png?1",
+	"big_image": "http://i.imgur.com/p38dbwz.png?1",
 	"short_description": "This portfolio",
 	"long_description": "The portfolio you're viewing. A simple website created using the Python framework Flask."
+    },
+    {
+	"id": 5,
+	"name": "Eduquest",
+	"date": "January 2017",
+	"techniques": [
+	    "Android",
+	    "Java"
+	],
+	"github": "https://www.github.com",
+	"small_image": "http://i.imgur.com/p38dbwz.png?1",
+	"big_image": "http://i.imgur.com/p38dbwz.png?1",
+	"short_description": "An mobile application for studying on the move.",
+	"long_description": "Eduqeust is mobile application for Android which allows its users to quiz themselves for exams and the like. It features a client in the form of an Android application, as well as a backend agnostic approach using a web server for providing the the available categories of questions."
     }
 ]

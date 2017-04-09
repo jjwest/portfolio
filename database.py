@@ -8,6 +8,10 @@ def load(filename='data.json'):
     except:
         return None
 
+def add_project(db, project, filename):
+    db.append(project)
+    with open(filename, 'w') as f:
+        f.write(db)
 
 def get_project_count(db):
     return len(db)

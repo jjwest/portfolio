@@ -24,7 +24,7 @@ body {
     padding-top: 1.5em;
 }
 
-.project-gallery:hover {
+.project-gallery-row:hover {
     background-color: #f2f2f2;
 }
 
